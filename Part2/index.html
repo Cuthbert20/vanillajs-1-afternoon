@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Styles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css" />
   </head>
 <body>
@@ -16,8 +17,8 @@
     </main>
     <input id="id" type="text" placeholder="ID">
     <input id="color" type="text" placeholder="Color">
-    <button type="button" id="btn" onclick="setCard()">Set Cards</button>
-    <button id="reset" onclick="reset()">Reset</button>
+    <button type="button" id="btn" onclick="setCard()" class="btn btn-success">Set Cards</button>
+    <button id="reset" onclick="reset()" class="btn btn-danger">Reset</button>
     <script src="index.js"></script>
 </body>
 </html>
