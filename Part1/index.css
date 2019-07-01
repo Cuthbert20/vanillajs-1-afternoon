@@ -34,3 +34,13 @@
     text-align: center;
     font-size: 2em;
 }
+
+.btn {
+    height: 50px;
+    width: 100px;
+    background-color: royalblue;
+}
+
+.space {
+    margin-left: 20px;
+}
